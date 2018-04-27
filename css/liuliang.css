@@ -1,0 +1,279 @@
+
+body{
+	color: black;
+}
+
+.banner{
+	height: 420px;
+	width: 69%;
+	background: url(../imgs/product/chanpin_imge_banner2.png) no-repeat;
+	float: right;
+	margin-top: 3%;
+}
+.liuliangDesc{
+	color: black;
+	position: absolute;
+	left: 20%;
+}
+.liuliangDesc p{
+	font-size: 22px;
+}
+hr{
+	height:3px;
+}
+.container{
+	margin-top: 500px;
+}
+.productDesc{
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.productDesc hr{
+	width: 89.3%;
+	margin-top: 36px;
+}
+.desc-text{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.apply-view{
+	margin: 0 auto;
+	border: 1px solid #eee;
+	height: 347px;
+}
+.apply-view ul{
+
+}
+.apply-view ul li{
+	list-style: none;
+	height: 87px;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	text-align: center;
+	float: none;
+}
+.apply-view ul li p{
+	padding-top: 30px;
+}
+.padd-init{
+	padding: 0 !important;
+	text-align: center;
+}
+.padd-init p{
+
+}
+.padd-init img{
+	width: 70%;
+	margin-top: 4%;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 324px;
+	border-left: 1px solid #eee;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	/* border-right: 1px solid #eee; */
+	height: 346px;
+	width: 379px;
+}
+.box p{
+	margin-top: 7%;
+}
+.box h4{
+	font-weight: bold;
+}
+.nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	border: none !important;
+	color: blue;
+}
+.nav-tabs a{
+	height: 100%;
+}
+#myTab .active a{
+	color: blue;
+}
+.nav-tabs>li>a {
+	margin-right: 0;
+}
+.nav-last{
+	width: 100%;
+}
+.advance{
+	border: 1px solid #eee;
+	text-align: center;
+	width: 24%;
+	margin-right: 4px;
+	margin-left: 5px;
+	height: 300px;
+}
+.advan_box p{
+	margin-top: 30px;
+}
+.blue-title{
+	font-size: 18px;
+	color: #005fb0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.part p{
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+.profitOne img{
+	margin-top: 3%;
+}
+.profitTwo img{
+	margin-top: 3%;
+}
+.profitTwoP{
+	margin-top: -1.5% !important;
+}
+.profitThreeP{
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+}
+.beizhu{
+	color: red;
+}
+.join img{
+	width: 100%;
+}
+.table-bordered{
+	text-align: center;
+	width: 100%;
+}
+.card_table{
+	width: 100%;
+}
+.table-bordered th{
+	text-align: center;
+	background: #005fb0;
+	color: #9cd0fc;
+}
+.table_title{
+	background: #005fb0;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer{
+	margin-top: 0px !important;
+}
+.black_title{
+	margin-left: 5%;
+}
+.chongzhi{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.chongzhi div{
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+.redmark{
+	color: red;
+}
+.footArea{
+	width: 100%;
+	background: #eee;
+	margin-top: 50px;
+}
+.code_box{
+	padding-top: 93px;
+	padding-bottom: 93px;
+}
+.code img{
+	width: 50%;
+}
+.footer_bottom{
+	margin-left: 20%;
+}
+@media screen and (max-width: 1024px){
+	.padd-init img {
+		margin-top: 10%;
+	}
+	.box{
+		border-right: 1px solid #eee;
+		width: 312px;
+	}
+	.banner{
+		width: 88%;
+	}
+	.liuliangDesc{
+		left: 14%;
+	}
+}
+@media screen and (max-width: 768px){
+	.box{
+		border-right: 1px solid #eee;
+		width: 100%;
+	}
+	.padd-init img {
+		margin-top: 5%;
+		width: 33%;
+	}
+	.code_box{
+		padding-top: 43px;
+		padding-bottom: 43px;
+	}
+	.navbar-toggle{
+		display: none;
+	}
+	.container{
+		margin-top: 400px;
+	}
+	.banner{
+		width: 93%;
+	}
+	.liuliangDesc{
+		left: 5%;
+	}
+	.box{
+		height: 200px;
+	}
+	.banner{
+		height: 300px;
+	}
+	.apply-view ul li{
+		float: left;
+		width: 25%;
+	}
+	.productDesc{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.advance{
+		width: 98%;
+	}
+	.nav-last{
+		width: 84px;
+	}
+}
+@media screen and (max-width: 760px){
+	.padd-init img {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 375px){
+	.padd-init img {
+		margin-top: 11%;
+	}
+}
+@media screen and (max-width: 360px){
+	.padd-init img {
+		margin-top: 13%;
+	}
+}
+@media screen and (max-width: 320px){
+	.padd-init img {
+		margin-top: 19%;
+	}
+}
